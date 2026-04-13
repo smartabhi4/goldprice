@@ -1,0 +1,22 @@
+{
+  "name": "goldprice",
+  "version": "1.0.0",
+  "description": "Live Gold & Silver price tracking",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server . -p 8080",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "gold",
+    "silver",
+    "prices",
+    "tradingview"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
